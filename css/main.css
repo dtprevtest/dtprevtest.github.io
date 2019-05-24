@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Roboto|Rubik|Ubuntu');
+
+.header {
+  height: 600px;
+
+  background: url("../assets/i/bg1.png") no-repeat
+  center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, .5);
+  background-blend-mode: darken;
+  font-family: 'Ubuntu', sans-serif;
+
+  color: #ffffff;
+  text-align: center;
+
+   @media (max-width: 1199px){
+      .display-2 {
+         font-size: 3.5rem;
+      }
+   }
+
+   @media (max-width: 991px){
+      .display-2 {
+         font-size: 3rem;
+      }
+   }
+
+   @media (max-width: 767px){
+      height: 300px;
+
+      .display-2 {
+         font-size: 2rem;
+      }
+   }
+ }
+
+
+/* background-image: url("bg.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; */
+.main {
+  margin-top: 3rem;
+}
+
+.block {
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  background: #ffffff;
+  border-radius: $border-radius;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+}
+
+.pagination{
+   active-color: danger;
+}
+
+.footer {
+   padding: 2rem 0;
+   margin-top: 3rem;
+   background-color: #212121;
+   background-position: center;
+
+   color: #ffffff;
+}
+
+.copyright {
+   padding:  1rem;
+
+   background-color: #1b1b1b;
+   color: #aaaaaa;
+   text-align: center;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+.thumb img {
+   width: 285px;
+   height: 186px;
+   -webkit-filter: grayscale(0);
+   filter: none;
+   border-radius: 5px;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   padding: 5px;
+}
+
+.thumb img:hover {
+   -webkit-filter: grayscale(1);
+   filter: grayscale(1);
+}
+
+.thumb {
+   padding: 5px;
+}
+
+.btn-rounded {
+    border-radius: 19px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
+
+.txtt{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.gal{
+  background-color: #1b1b1b;
+}
+.qwe{
+
+    
+    outline: 2px solid #000; /* Чёрная рамка */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+}
